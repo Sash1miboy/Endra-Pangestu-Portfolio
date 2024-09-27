@@ -1,0 +1,90 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.skillsHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    gap: 0.625rem;
+    
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 0.625rem;
+    font-size: 1.6rem;
+}
+
+.skillsLine{
+    width: 80rem;
+    border: 0.15rem solid #2196F3;
+}
+
+.skillsTab {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    width: 100%; 
+    gap: 1.5rem;
+}
+
+.programmingLanguages, .tools {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%; 
+}
+
+.plTitle, .toolsTitle {
+    width: 100%; 
+    text-align: left; 
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #2196F3;
+}
+
+.plGrid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.toolsGrid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.plItem, .toolsItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.plIcon, .tlIcon{
+    width: 6rem;
+    height: 6rem;
+}
+
+.plName, .tlName{
+    font-weight: 600;
+    font-size: 1rem;
+}
+

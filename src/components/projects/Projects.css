@@ -1,0 +1,82 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.projectHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    gap: 0.625rem;
+    
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 0.625rem;
+    font-size: 1.6rem;
+}
+
+.lineProject{
+    width: 80rem;
+    border: 0.15rem solid #2196F3;
+}
+
+.projectList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    gap: 3rem;
+}
+
+.projectItem{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.4rem;
+}
+
+.projectPic{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0.625rem;
+}
+
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.projectTitle{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.projectDesc{
+    font-size: 1.2rem;
+}
+
+.projectSkillUsed{
+    font-size: 1.2rem;
+}
+
+.projectLink{
+    font-size: 1.4rem;
+    font-weight: 600;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}

@@ -1,0 +1,64 @@
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.aboutHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    gap: 0.625rem;
+    
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 0.625rem;
+    font-size: 1.6rem;
+}
+
+.lineAboutMe{
+    width: 80rem;
+    border: 0.15rem solid #2196F3;
+}
+
+.descAboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    height: 32rem;
+
+    background: #FFFFFF;
+    box-shadow: 0.25rem 0.25rem 3.125rem 0.625rem rgba(33, 150, 243, 0.2);
+    border-radius: 0.625rem;
+}
+
+.descPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+    width: 90%;
+    height: 90%;
+}
+
+.part1, .part2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
