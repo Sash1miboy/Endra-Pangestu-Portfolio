@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 .container{
@@ -14,21 +14,15 @@
 }
 
 .contactHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25rem;
-    gap: 0.625rem;
-    
+    padding: 0.8vw 1vw;
     background-color: #2196F3;
     color: #FFFFFF;
-    border-radius: 0.625rem;
-    font-size: 1.6rem;
+    border-radius: 0.4vw;
+    font-size: 1.4vw;
 }
 
 .lineContact{
-    width: 80rem;
+    width: 66.6vw;
     border: 0.15rem solid #2196F3;
 }
 
@@ -36,25 +30,107 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 6rem;
+    gap: 6vw;
     margin-bottom: 4%;
 }
 
 .instaItem, .linkedInItem, .whatsappItem{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.5vw;
     text-decoration: none;
     color: inherit;
 
     img{
-        width: 4rem;
-        height: 4rem;
+        width: 3vw;
+        height: 3vw;
     }
 
     span{
-        font-size: 1.2rem;
+        font-size: 1vw;
         font-weight: 500;
+    }
+}
+
+@media (max-width: 1024px){
+    .contactHeader{
+        font-size: 2vw;
+    }
+    
+    .lineContact{
+        width: 84vw;
+    }
+    
+    .instaItem, .linkedInItem, .whatsappItem{
+        display: flex;
+        align-items: center;
+        gap: 0.7vw;
+        text-decoration: none;
+        color: inherit;
+    
+        img{
+            width: 5vw;
+            height: 5vw;
+        }
+    
+        span{
+            font-size: 1.8vw;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .contactHeader{
+        padding: 1vw 1vw;
+        font-size: 2.4vw;
+    }
+    
+    .lineContact{
+        width: 84vw;
+        margin-top: -1vw;
+    }
+    
+    .instaItem, .linkedInItem, .whatsappItem{
+        gap: 0.7vw;
+        margin-top: -1vw;
+        
+        img{
+            width: 5vw;
+            height: 5vw;
+        }
+    
+        span{
+            font-size: 1.8vw;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (max-width: 430px){
+    .contactHeader{
+        padding: 1.4vw 1.6vw;
+        font-size: 3.2vw;
+    }
+    
+    .lineContact{
+        border: 0.122rem solid #2196F3;
+        margin-top: -2vw;
+    }
+    
+    .instaItem, .linkedInItem, .whatsappItem{
+        gap: 0.7vw;
+        margin-top: -2vw;
+
+        img{
+            width: 6vw;
+            height: 6vw;
+        }
+    
+        span{
+            font-size: 2vw;
+            font-weight: 500;
+        }
     }
 }
 

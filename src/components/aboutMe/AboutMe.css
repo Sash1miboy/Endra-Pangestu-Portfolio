@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 .container{
@@ -14,21 +14,15 @@
 }
 
 .aboutHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25rem;
-    gap: 0.625rem;
-    
+    padding: 0.8vw 1vw;
     background-color: #2196F3;
     color: #FFFFFF;
-    border-radius: 0.625rem;
-    font-size: 1.6rem;
+    border-radius: 0.4vw;
+    font-size: 1.4vw;
 }
 
 .lineAboutMe{
-    width: 80rem;
+    width: 66.6vw;
     border: 0.15rem solid #2196F3;
 }
 
@@ -37,12 +31,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80rem;
-    height: 32rem;
+    width: 66.6vw;
+    height: auto;
 
     background: #FFFFFF;
     box-shadow: 0.25rem 0.25rem 3.125rem 0.625rem rgba(33, 150, 243, 0.2);
-    border-radius: 0.625rem;
+    border-radius: 0.4vw;
 }
 
 .descPart{
@@ -50,15 +44,79 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
-    
-    width: 90%;
-    height: 90%;
+    gap: 1vw;
+    padding: 4% 4%;
 }
 
 .part1, .part2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.2vw;
+}
+
+@media (max-width: 1024px){
+    .aboutHeader{
+        font-size: 2vw;
+        margin-top: 1vw;
+    }
+    
+    .lineAboutMe{
+        width: 84vw;
+    }
+    
+    .descAboutMe{
+        width: 84vw;
+    }
+    
+    .part1, .part2{
+        font-size: 1.7vw;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .aboutHeader{
+        padding: 1vw 1vw;
+        font-size: 2.4vw;
+    }
+    
+    .lineAboutMe{
+        width: 84vw;
+        margin-top: -1vw;
+    }
+    
+    .descAboutMe{
+        width: 84vw;
+        margin-top: -1vw;
+    }
+    
+    .part1, .part2{
+        font-size: 2.2vw;
+    }
+    
+}
+
+@media (max-width: 430px){
+    .aboutHeader{
+        margin-top: 2vw;
+        padding: 1.4vw 1.6vw;
+        font-size: 3.2vw;
+    }
+    
+    .lineAboutMe{
+        width: 84vw;
+        border: 0.122rem solid #2196F3;
+        margin-top: -2vw;
+    }
+    
+    .descAboutMe{
+        width: 84vw;
+        margin-top: -2vw;
+    }
+    
+    .part1, .part2{
+        font-size: 2.6vw;
+    }
+    
 }

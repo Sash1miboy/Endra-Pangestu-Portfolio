@@ -10,25 +10,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
 }
 
 .skillsHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25rem;
-    gap: 0.625rem;
-    
+    padding: 0.8vw 1vw;
     background-color: #2196F3;
     color: #FFFFFF;
-    border-radius: 0.625rem;
-    font-size: 1.6rem;
+    border-radius: 0.4vw;
+    font-size: 1.4vw;
 }
 
 .skillsLine{
-    width: 80rem;
+    width: 66.6vw;
     border: 0.15rem solid #2196F3;
 }
 
@@ -38,13 +31,13 @@
     justify-content: flex-start; 
     align-items: flex-start; 
     width: 100%; 
-    gap: 1.5rem;
+    gap: 1.8vw;
 }
 
 .programmingLanguages, .tools {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.2vw;
     width: 100%; 
 }
 
@@ -52,7 +45,7 @@
     width: 100%; 
     text-align: left; 
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.1vw;
     color: #2196F3;
 }
 
@@ -67,7 +60,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 39%;
 }
 
 .plItem, .toolsItem{
@@ -75,16 +68,146 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.4vw;
 }
 
 .plIcon, .tlIcon{
-    width: 6rem;
-    height: 6rem;
+    width: 6vw;
+    height: 6vw;
 }
 
 .plName, .tlName{
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9vw;
+}
+
+@media (max-width: 1024px){
+    .skillsHeader{
+        font-size: 2vw;
+    }
+    
+    .skillsLine{
+        width: 84vw;
+    }
+    
+    .programmingLanguages, .tools {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2vw;
+        width: 100%; 
+    }
+    
+    .plTitle, .toolsTitle {
+        font-size: 1.6vw;
+    }
+    
+    .toolsGrid{
+        width: 39%;
+    }
+    
+    .plItem, .toolsItem{
+        gap: 0.8vw;
+    }
+    
+    .plIcon, .tlIcon{
+        width: 7vw;
+        height: auto;
+    }
+    
+    .plName, .tlName{
+        font-weight: 600;
+        font-size: 1.2vw;
+    }
+}
+
+@media (max-width: 768px){
+    .skillsHeader{
+        padding: 1vw 1vw;
+        font-size: 2.4vw;
+    }
+    
+    .skillsLine{
+        width: 84vw;
+        margin-top: -1vw;
+    }
+
+    .skillsTab{
+        margin-top: -1vw;
+    }
+    
+    .programmingLanguages, .tools {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4vw;
+        width: 100%; 
+    }
+    
+    .plTitle, .toolsTitle {
+        font-size: 2vw;
+    }
+    
+    .toolsGrid{
+        width: 39%;
+    }
+    
+    .plItem, .toolsItem{
+        gap: 0.8vw;
+    }
+    
+    .plIcon, .tlIcon{
+        width: 8vw;
+        height: auto;
+    }
+    
+    .plName, .tlName{
+        font-weight: 600;
+        font-size: 1.4vw;
+    }
+}
+
+@media (max-width: 430px){
+    .skillsHeader{
+        padding: 1.4vw 1.6vw;
+        font-size: 3.2vw;
+    }
+    
+    .skillsLine{
+        width: 84vw;
+        border: 0.122rem solid #2196F3;
+        margin-top: -2vw;
+    }
+
+    .skillsTab{
+        margin-top: -2vw;
+    }
+    
+    .programmingLanguages, .tools {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 100%; 
+    }
+    
+    .plTitle, .toolsTitle {
+        font-size: 2.8vw;
+    }
+    
+    .toolsGrid{
+        width: 39%;
+    }
+    
+    .plItem, .toolsItem{
+        gap: 1vw;
+    }
+    
+    .plIcon, .tlIcon{
+        width: 9vw;
+        height: auto;
+    }
+    
+    .plName, .tlName{
+        font-weight: 600;
+        font-size: 1.6vw;
+    }
 }
 
