@@ -12,7 +12,7 @@ const ContactMe = () => {
                     <img src="/instagram.svg" alt="" />
                     <span>@endra.djati</span>
                 </a>
-                <a href="www.linkedin.com/in/endra-pangestu-a0aa88253" className="linkedInItem">
+                <a href="https://www.linkedin.com/in/endra-pangestu-a0aa88253/" className="linkedInItem">
                     <img src="/linkedin.svg" alt="" />
                     <span>Endra Pangestu</span>
                 </a>
