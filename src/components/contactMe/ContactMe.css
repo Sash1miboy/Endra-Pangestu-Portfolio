@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 6vw;
+    gap: 3vw;
     margin-bottom: 4%;
 }
 
@@ -124,13 +124,12 @@
         margin-top: -2vw;
 
         img{
-            width: 6vw;
-            height: 6vw;
+            width: 5vw;
+            height: 5vw;
         }
     
         span{
-            font-size: 2vw;
-            font-weight: 500;
+            font-size: 1.8vw;
         }
     }
 }
