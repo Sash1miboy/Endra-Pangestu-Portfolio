@@ -14,7 +14,7 @@ const Skills = () => {
                     <div className="plGrid">
                       {proggramingLanguages.map(language => (
                         <div key={language.id} className="plItem">
-                          <img src={language.image} alt={language.image} className='plIcon'/>
+                          <img src={language.image} alt="" className='plIcon'/>
                           <span className='plName'>{language.name}</span>
                         </div>
                       ))}

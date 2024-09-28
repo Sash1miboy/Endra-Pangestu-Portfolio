@@ -20,6 +20,10 @@ const ContactMe = () => {
                     <img src="/whatsapp.svg" alt="" />
                     <span>(+62) 812 1978 7703</span>
                 </a>
+                <a href="https://github.com/Sash1miboy" className="gitHubItem">
+                    <img src="/gitHubIcon.svg" alt="" />
+                    <span>Sash1miboy</span>
+                </a>
             </div>
         </div>
     </div>

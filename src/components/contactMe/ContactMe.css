@@ -34,7 +34,7 @@
     margin-bottom: 4%;
 }
 
-.instaItem, .linkedInItem, .whatsappItem{
+.instaItem, .linkedInItem, .whatsappItem, .gitHubItem{
     display: flex;
     align-items: center;
     gap: 0.5vw;
@@ -61,7 +61,7 @@
         width: 84vw;
     }
     
-    .instaItem, .linkedInItem, .whatsappItem{
+    .instaItem, .linkedInItem, .whatsappItem, .gitHubItem{
         display: flex;
         align-items: center;
         gap: 0.7vw;
@@ -91,7 +91,7 @@
         margin-top: -1vw;
     }
     
-    .instaItem, .linkedInItem, .whatsappItem{
+    .instaItem, .linkedInItem, .whatsappItem, .gitHubItem{
         gap: 0.7vw;
         margin-top: -1vw;
         
@@ -111,6 +111,7 @@
     .contactHeader{
         padding: 1.4vw 1.6vw;
         font-size: 3.2vw;
+        border-radius: 0.8vw;
     }
     
     .lineContact{
@@ -118,7 +119,7 @@
         margin-top: -2vw;
     }
     
-    .instaItem, .linkedInItem, .whatsappItem{
+    .instaItem, .linkedInItem, .whatsappItem, .gitHubItem{
         gap: 0.7vw;
         margin-top: -2vw;
 

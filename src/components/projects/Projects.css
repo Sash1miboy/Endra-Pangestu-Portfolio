@@ -176,6 +176,7 @@
     .projectHeader{
         padding: 1.4vw 1.6vw;
         font-size: 3.2vw;
+        border-radius: 0.8vw;
     }
     
     .lineProject{
